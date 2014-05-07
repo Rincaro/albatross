@@ -1,6 +1,8 @@
 package com.youdevise.albatross
 
 import collection.immutable.Stream.cons
+import com.youdevise.albatross.SubInterval
+import com.youdevise.albatross.IntervalSet
 
 trait DiscreteDomain[T] {
   def next(value: T): T

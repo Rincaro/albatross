@@ -1,7 +1,6 @@
 package com.youdevise.albatross
 
 import org.specs2.Specification
-
 import Bounds._
 import Discrete._
 

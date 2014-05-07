@@ -1,6 +1,8 @@
 package com.youdevise.albatross
 
 import Bounds._
+import com.youdevise.albatross.Bounds
+import com.youdevise.albatross.Bound
 
 object Intervals {
   def open2Open[T](lower: T, upper: T)(implicit ord: Ordering[T]): Continuous[T] = open(lower) to open(upper)
